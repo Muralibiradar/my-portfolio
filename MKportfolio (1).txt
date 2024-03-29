@@ -1,0 +1,2202 @@
+@@ -0,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+# /build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+ 70 changes: 70 additions & 0 deletions70  
+README.md
+@@ -0,0 +1,70 @@
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ 19 changes: 19 additions & 0 deletions19  
+build/asset-manifest.json
+@@ -0,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d8b03168.css",
+    "main.js": "/static/js/main.9a7265ac.js",
+    "static/media/bannerImg.png": "/static/media/bannerImg.caa3d5e2872e84d77cf2.png",
+    "static/media/contactImg.png": "/static/media/contactImg.8ddfbfd11798f881db54.png",
+    "static/media/testimonialOne.png": "/static/media/testimonialOne.c4706b2d1cadcb9f4daf.png",
+    "static/media/projectThree.jpeg": "/static/media/projectThree.47442baa3158613330ab.jpeg",
+    "static/media/testimonialTwo.png": "/static/media/testimonialTwo.c6df2773c486964035d9.png",
+    "static/media/projectTwo.jpg": "/static/media/projectTwo.1fabe2c8c93632187ee6.jpg",
+    "index.html": "/index.html",
+    "main.d8b03168.css.map": "/static/css/main.d8b03168.css.map",
+    "main.9a7265ac.js.map": "/static/js/main.9a7265ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8b03168.css",
+    "static/js/main.9a7265ac.js"
+  ]
+}
+ Binary file addedBIN +3.78 KB 
+build/favicon.ico
+Binary file not shown.
+ 1 change: 1 addition & 0 deletions1  
+build/index.html
+@@ -0,0 +1 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/profilePhoto.png"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/profilePhoto.png"/><link rel="manifest" href="/manifest.json"/><title>Jhon Doe || Personal Portfolio</title><script defer="defer" src="/static/js/main.9a7265ac.js"></script><link href="/static/css/main.d8b03168.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+ Binary file addedBIN +5.22 KB 
+build/logo192.png
+
+ Binary file addedBIN +9.44 KB 
+build/logo512.png
+
+ 25 changes: 25 additions & 0 deletions25  
+build/manifest.json
+@@ -0,0 +1,25 @@
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
+ Binary file addedBIN +169 KB 
+build/profilePhoto.png
+
+ 3 changes: 3 additions & 0 deletions3  
+build/robots.txt
+@@ -0,0 +1,3 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+ Binary file addedBIN +26 KB 
+build/smallLogo.ico
+Binary file not shown.
+ 6 changes: 6 additions & 0 deletions6  
+build/static/css/main.d8b03168.css
+Large diffs are not rendered by default.
+
+ 1 change: 1 addition & 0 deletions1  
+build/static/css/main.d8b03168.css.map
+Some generated files are not rendered by default. Learn more about how customized files appear on GitHub.
+
+ 3 changes: 3 additions & 0 deletions3  
+build/static/js/main.9a7265ac.js
+Large diffs are not rendered by default.
+
+ 45 changes: 45 additions & 0 deletions45  
+build/static/js/main.9a7265ac.js.LICENSE.txt
+@@ -0,0 +1,45 @@
+/*!
+	Copyright (c) 2018 Jed Watson.
+	Licensed under the MIT License (MIT), see
+	http://jedwatson.github.io/classnames
+*/
+
+/**
+ * @license React
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+ 1 change: 1 addition & 0 deletions1  
+build/static/js/main.9a7265ac.js.map
+Large diffs are not rendered by default.
+
+ Binary file addedBIN +157 KB 
+build/static/media/bannerImg.caa3d5e2872e84d77cf2.png
+
+ Binary file addedBIN +63 KB 
+build/static/media/contactImg.8ddfbfd11798f881db54.png
+
+ Binary file addedBIN +29.3 KB 
+build/static/media/projectThree.47442baa3158613330ab.jpeg
+
+ Binary file addedBIN +27.3 KB 
+build/static/media/projectTwo.1fabe2c8c93632187ee6.jpg
+
+ Binary file addedBIN +37.9 KB 
+build/static/media/testimonialOne.c4706b2d1cadcb9f4daf.png
+
+ Binary file addedBIN +27.3 KB 
+build/static/media/testimonialTwo.c6df2773c486964035d9.png
+
+ 29,583 changes: 29,583 additions & 0 deletions29,583  
+package-lock.json
+Large diffs are not rendered by default.
+
+ 47 changes: 47 additions & 0 deletions47  
+package.json
+@@ -0,0 +1,47 @@
+{
+  "name": "portfolioyoutube",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "framer-motion": "^8.4.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
+    "react-simple-typewriter": "^5.0.1",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
+ Binary file addedBIN +3.78 KB 
+public/favicon.ico
+Binary file not shown.
+ 43 changes: 43 additions & 0 deletions43  
+public/index.html
+@@ -0,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/profilePhoto.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/profilePhoto.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Jhon Doe || Personal Portfolio</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
+ Binary file addedBIN +5.22 KB 
+public/logo192.png
+
+ Binary file addedBIN +9.44 KB 
+public/logo512.png
+
+ 25 changes: 25 additions & 0 deletions25  
+public/manifest.json
+@@ -0,0 +1,25 @@
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
+ Binary file addedBIN +169 KB 
+public/profilePhoto.png
+
+ 3 changes: 3 additions & 0 deletions3  
+public/robots.txt
+@@ -0,0 +1,3 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+ Binary file addedBIN +26 KB 
+public/smallLogo.ico
+Binary file not shown.
+ 30 changes: 30 additions & 0 deletions30  
+src/App.js
+@@ -0,0 +1,30 @@
+import React from "react";
+import Banner from "./components/banner/Banner";
+import Contact from "./components/contact/Contact";
+import Features from "./components/features/Features";
+import Footer from "./components/footer/Footer";
+import FooterBottom from "./components/footer/FooterBottom";
+import Navbar from "./components/navbar/Navbar";
+import Projects from "./components/projects/Projects";
+import Resume from "./components/resume/Resume";
+import Testimonial from "./components/tesimonial/Testimonial";
+
+function App() {
+  return (
+    <div className="w-full h-auto bg-bodyColor text-lightText px-4">
+        <Navbar />
+      <div className="max-w-screen-xl mx-auto">
+        <Banner />
+        <Features />
+        <Projects />
+        <Resume />
+        <Testimonial />
+        <Contact />
+        <Footer />
+        <FooterBottom />
+      </div>
+    </div>
+  );
+}
+
+export default App;
+ Binary file addedBIN +157 KB 
+src/assets/images/bannerImg.png
+
+ Binary file addedBIN +63 KB 
+src/assets/images/contact/contactImg.png
+
+ Binary file addedBIN +9.17 KB 
+src/assets/images/logo.png
+
+ Binary file addedBIN +8.27 KB 
+src/assets/images/projects/projectOne.jpg
+
+ Binary file addedBIN +29.3 KB 
+src/assets/images/projects/projectThree.jpeg
+
+ Binary file addedBIN +27.3 KB 
+src/assets/images/projects/projectTwo.jpg
+
+ Binary file addedBIN +7.24 KB 
+src/assets/images/testmonial/quote.png
+
+ Binary file addedBIN +37.9 KB 
+src/assets/images/testmonial/testimonialOne.png
+
+ Binary file addedBIN +27.3 KB 
+src/assets/images/testmonial/testimonialTwo.png
+
+ 21 changes: 21 additions & 0 deletions21  
+src/assets/index.js
+@@ -0,0 +1,21 @@
+import logo from "./images/logo.png";
+import bannerImg from "./images/bannerImg.png";
+import projectOne from "./images/projects/projectOne.jpg";
+import projectTwo from "./images/projects/projectTwo.jpg";
+import projectThree from "./images/projects/projectThree.jpeg";
+import testimonialOne from "./images/testmonial/testimonialOne.png";
+import testimonialTwo from "./images/testmonial/testimonialTwo.png";
+import quote from "./images/testmonial/quote.png";
+import contactImg from "./images/contact/contactImg.png";
+
+export {
+  logo,
+  bannerImg,
+  projectOne,
+  projectTwo,
+  projectThree,
+  testimonialOne,
+  testimonialTwo,
+  quote,
+  contactImg,
+};
+ 16 changes: 16 additions & 0 deletions16  
+src/components/banner/Banner.js
+@@ -0,0 +1,16 @@
+import React from 'react'
+import LeftBanner from './LeftBanner';
+import RightBanner from './RightBanner';
+const Banner = () => {
+  return (
+    <section
+      id="home"
+      className="w-full pt-10 pb-20 flex flex-col gap-10 xl:gap-0 lgl:flex-row items-center border-b-[1px] font-titleFont border-b-black"
+    >
+      <LeftBanner />
+     <RightBanner />
+    </section>
+  );
+}
+
+export default Banner
+ 76 changes: 76 additions & 0 deletions76  
+src/components/banner/LeftBanner.js
+@@ -0,0 +1,76 @@
+import React from 'react'
+import { useTypewriter, Cursor } from "react-simple-typewriter";
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
+import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+
+const LeftBanner = () => {
+    const [text] = useTypewriter({
+      words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
+      loop: true,
+      typeSpeed: 20,
+      deleteSpeed: 10,
+      delaySpeed: 2000,
+    });
+  return (
+    <div className="w-full lgl:w-1/2 flex flex-col gap-20">
+      <div className="flex flex-col gap-5">
+        <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
+        <h1 className="text-6xl font-bold text-white">
+          Hi, I'm <span className="text-designColor capitalize">John doe</span>
+        </h1>
+        <h2 className="text-4xl font-bold text-white">
+          a <span>{text}</span>
+          <Cursor
+            cursorBlinking="false"
+            cursorStyle="|"
+            cursorColor="#ff014f"
+          />
+        </h2>
+        <p className="text-base font-bodyFont leading-6 tracking-wide">
+          I use animation as a third dimension by which to simplify experiences
+          and kuiding thro each and every interaction. I'm not adding motion
+          just to spruce things up, but doing it in ways that.
+        </p>
+      </div>
+      <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
+        <div>
+          <h2 className="text-base uppercase font-titleFont mb-4">
+            Find me in
+          </h2>
+          <div className="flex gap-4">
+            <span className="bannerIcon">
+              <FaFacebookF />
+            </span>
+            <span className="bannerIcon">
+              <FaTwitter />
+            </span>
+            <span className="bannerIcon">
+              <FaLinkedinIn />
+            </span>
+          </div>
+        </div>
+        <div>
+          <h2 className="text-base uppercase font-titleFont mb-4">
+            BEST SKILL ON
+          </h2>
+          <div className="flex gap-4">
+            <span className="bannerIcon">
+              <FaReact />
+            </span>
+            <span className="bannerIcon">
+              <SiNextdotjs />
+            </span>
+            <span className="bannerIcon">
+              <SiTailwindcss />
+            </span>
+            <span className="bannerIcon">
+              <SiFigma />
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default LeftBanner
+ 17 changes: 17 additions & 0 deletions17  
+src/components/banner/RightBanner.js
+@@ -0,0 +1,17 @@
+import React from 'react'
+import { bannerImg } from "../../assets/index";
+
+const RightBanner = () => {
+  return (
+    <div className="w-full lgl:w-1/2 flex justify-center items-center relative">
+      <img
+        className="w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10"
+        src={bannerImg}
+        alt="bannerImg"
+      />
+      <div className="absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
+    </div>
+  );
+}
+
+export default RightBanner
+ 169 changes: 169 additions & 0 deletions169  
+src/components/contact/Contact.js
+@@ -0,0 +1,169 @@
+import React,{useState} from 'react'
+import Title from '../layouts/Title';
+import ContactLeft from './ContactLeft';
+
+const Contact = () => {
+  const [username, setUsername] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+  const [errMsg, setErrMsg] = useState("");
+  const [successMsg, setSuccessMsg] = useState("");
+
+  // ========== Email Validation start here ==============
+  const emailValidation = () => {
+    return String(email)
+      .toLocaleLowerCase()
+      .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
+  };
+  // ========== Email Validation end here ================
+
+  const handleSend = (e) => {
+    e.preventDefault();
+    if (username === "") {
+      setErrMsg("Username is required!");
+    } else if (phoneNumber === "") {
+      setErrMsg("Phone number is required!");
+    } else if (email === "") {
+      setErrMsg("Please give your Email!");
+    } else if (!emailValidation(email)) {
+      setErrMsg("Give a valid Email!");
+    } else if (subject === "") {
+      setErrMsg("Plese give your Subject!");
+    } else if (message === "") {
+      setErrMsg("Message is required!");
+    } else {
+      setSuccessMsg(
+        `Thank you dear ${username}, Your Messages has been sent Successfully!`
+      );
+      setErrMsg("");
+      setUsername("");
+      setPhoneNumber("");
+      setEmail("");
+      setSubject("");
+      setMessage("");
+    }
+  };
+  return (
+    <section
+      id="contact"
+      className="w-full py-20 border-b-[1px] border-b-black"
+    >
+      <div className="flex justify-center items-center text-center">
+        <Title title="CONTACT" des="Contact With Me" />
+      </div>
+      <div className="w-full">
+        <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
+          <ContactLeft />
+          <div className="w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne">
+            <form className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5">
+              {errMsg && (
+                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
+                  {errMsg}
+                </p>
+              )}
+              {successMsg && (
+                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">
+                  {successMsg}
+                </p>
+              )}
+              <div className="w-full flex flex-col lgl:flex-row gap-10">
+                <div className="w-full lgl:w-1/2 flex flex-col gap-4">
+                  <p className="text-sm text-gray-400 uppercase tracking-wide">
+                    Your name
+                  </p>
+                  <input
+                    onChange={(e) => setUsername(e.target.value)}
+                    value={username}
+                    className={`${
+                      errMsg === "Username is required!" &&
+                      "outline-designColor"
+                    } contactInput`}
+                    type="text"
+                  />
+                </div>
+                <div className="w-full lgl:w-1/2 flex flex-col gap-4">
+                  <p className="text-sm text-gray-400 uppercase tracking-wide">
+                    Phone Number
+                  </p>
+                  <input
+                    onChange={(e) => setPhoneNumber(e.target.value)}
+                    value={phoneNumber}
+                    className={`${
+                      errMsg === "Phone number is required!" &&
+                      "outline-designColor"
+                    } contactInput`}
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div className="flex flex-col gap-4">
+                <p className="text-sm text-gray-400 uppercase tracking-wide">
+                  Email
+                </p>
+                <input
+                  onChange={(e) => setEmail(e.target.value)}
+                  value={email}
+                  className={`${
+                    errMsg === "Please give your Email!" &&
+                    "outline-designColor"
+                  } contactInput`}
+                  type="email"
+                />
+              </div>
+              <div className="flex flex-col gap-4">
+                <p className="text-sm text-gray-400 uppercase tracking-wide">
+                  Subject
+                </p>
+                <input
+                  onChange={(e) => setSubject(e.target.value)}
+                  value={subject}
+                  className={`${
+                    errMsg === "Plese give your Subject!" &&
+                    "outline-designColor"
+                  } contactInput`}
+                  type="text"
+                />
+              </div>
+              <div className="flex flex-col gap-4">
+                <p className="text-sm text-gray-400 uppercase tracking-wide">
+                  Message
+                </p>
+                <textarea
+                  onChange={(e) => setMessage(e.target.value)}
+                  value={message}
+                  className={`${
+                    errMsg === "Message is required!" && "outline-designColor"
+                  } contactTextArea`}
+                  cols="30"
+                  rows="8"
+                ></textarea>
+              </div>
+              <div className="w-full">
+                <button
+                  onClick={handleSend}
+                  className="w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent"
+                >
+                  Send Message
+                </button>
+              </div>
+              {errMsg && (
+                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
+                  {errMsg}
+                </p>
+              )}
+              {successMsg && (
+                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">
+                  {successMsg}
+                </p>
+              )}
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Contact
+ 47 changes: 47 additions & 0 deletions47  
+src/components/contact/ContactLeft.js
+@@ -0,0 +1,47 @@
+import React from 'react'
+import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { contactImg } from "../../assets/index";
+
+const ContactLeft = () => {
+  return (
+    <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-4 lgl:p-8 rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center">
+      <img
+        className="w-full h-64 object-cover rounded-lg mb-2"
+        src={contactImg}
+        alt="contactImg"
+      />
+      <div className="flex flex-col gap-4">
+        <h3 className="text-3xl font-bold text-white">John Doe</h3>
+        <p className="text-lg font-normal text-gray-400">
+          MERN Stack Developer
+        </p>
+        <p className="text-base text-gray-400 tracking-wide">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
+          ipsam autem cumque, accusantium dicta odio.
+        </p>
+        <p className="text-base text-gray-400 flex items-center gap-2">
+          Phone: <span className="text-lightText">+968 97859628</span>
+        </p>
+        <p className="text-base text-gray-400 flex items-center gap-2">
+          Email: <span className="text-lightText">noor.jsdivs@gmail.com</span>
+        </p>
+      </div>
+      <div className="flex flex-col gap-4">
+        <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
+        <div className="flex gap-4">
+          <span className="bannerIcon">
+            <FaFacebookF />
+          </span>
+          <span className="bannerIcon">
+            <FaTwitter />
+          </span>
+          <span className="bannerIcon">
+            <FaLinkedinIn />
+          </span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default ContactLeft
+ 37 changes: 37 additions & 0 deletions37  
+src/components/features/Card.js
+@@ -0,0 +1,37 @@
+import React from 'react'
+import { HiArrowRight } from "react-icons/hi";
+
+const Card = ({title,des,icon}) => {
+  return (
+    <div className="w-full px-12 h-80 py-10 rounded-lg shadow-shadowOne flex items-center bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024] transition-colors duration-100 group">
+      <div className="h-72 overflow-y-hidden">
+        <div className="flex h-full flex-col gap-10 translate-y-16 group-hover:translate-y-0 transition-transform duration-500">
+          <div className="w-10 h-8 flex flex-col justify-between">
+
+            {icon ? (
+              <span className="text-5xl text-designColor">{icon}</span>
+            ) : (
+              <>
+                <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
+                <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
+                <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
+                <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
+              </>
+            )}
+          </div>
+          <div className="flex flex-col gap-6">
+            <h2 className="text-xl md:text-2xl font-titleFont font-bold text-gray-300">
+              {title}
+            </h2>
+            <p className="base">{des}</p>
+            <span className="text-2xl text-designColor">
+              <HiArrowRight />
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Card
+ 57 changes: 57 additions & 0 deletions57  
+src/components/features/Features.js
+@@ -0,0 +1,57 @@
+import React from 'react'
+import { AiFillAppstore } from "react-icons/ai";
+import { FaMobile, FaGlobe } from "react-icons/fa";
+import { SiProgress, SiAntdesign } from "react-icons/si";
+import Title from '../layouts/Title';
+import Card from './Card';
+
+const Features = () => {
+  return (
+    <section
+      id="features"
+      className="w-full py-20 border-b-[1px] border-b-black"
+    >
+      <Title title="Features" des="What I Do" />
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
+        <Card
+          title="Business Stratagy"
+          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
+          hic consequuntur eum repellendus ad."
+
+        />
+        <Card
+          title="App Development"
+          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
+          hic consequuntur eum repellendus ad."
+          icon={<AiFillAppstore />}
+        />
+        <Card
+          title="SEO Optimisation"
+          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
+          hic consequuntur eum repellendus ad."
+          icon={<SiProgress />}
+        />
+        <Card
+          title="Mobile Development"
+          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
+          hic consequuntur eum repellendus ad."
+          icon={<FaMobile />}
+        />
+        <Card
+          title="UX Design"
+          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
+          hic consequuntur eum repellendus ad."
+          icon={<SiAntdesign />}
+        />
+        <Card
+          title="Hosting Websites"
+          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
+          hic consequuntur eum repellendus ad."
+          icon={<FaGlobe />}
+        />
+      </div>
+    </section>
+  );
+}
+
+export default Features
+ 137 changes: 137 additions & 0 deletions137  
+src/components/footer/Footer.js
+@@ -0,0 +1,137 @@
+import React from 'react'
+import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import {logo} from "../../assets/index"
+
+const Footer = () => {
+  return (
+    <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
+      <div className="w-full h-full flex flex-col gap-8">
+        <img className="w-32" src={logo} alt="logo" />
+        <div className="flex gap-4">
+          <span className="bannerIcon">
+            <FaFacebookF />
+          </span>
+          <span className="bannerIcon">
+            <FaTwitter />
+          </span>
+          <span className="bannerIcon">
+            <FaLinkedinIn />
+          </span>
+        </div>
+      </div>
+      <div className="w-full h-full">
+        <h3 className="text-xl uppercase text-designColor tracking-wider">
+          Quick Link
+        </h3>
+        <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              About
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Portfolio
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Services
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Blog
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Contact
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div className="w-full h-full">
+        <h3 className="text-xl uppercase text-designColor tracking-wider">
+          RESOURCES
+        </h3>
+        <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Authentication
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              System Status
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Terms of Service
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Pricing
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Over Right
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div className="w-full h-full">
+        <h3 className="text-xl uppercase text-designColor tracking-wider">
+          DEVELOPERS
+        </h3>
+        <ul className="flex flex-col gap-4 font-titleFont font-medium overflow-hidden py-6">
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Documentation
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Authentication
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              API Reference
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Support
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+          <li>
+            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
+              Open Source
+              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+}
+
+export default Footer
+ 13 changes: 13 additions & 0 deletions13  
+src/components/footer/FooterBottom.js
+@@ -0,0 +1,13 @@
+import React from 'react'
+
+const FooterBottom = () => {
+  return (
+    <div className="w-full py-10">
+      <p className="text-center text-gray-500 text-base">
+        © 2022. All rights reserved by Noor Mohammad
+      </p>
+    </div>
+  );
+}
+
+export default FooterBottom
+ 14 changes: 14 additions & 0 deletions14  
+src/components/layouts/Title.js
+@@ -0,0 +1,14 @@
+import React from 'react'
+
+const Title = ({title, des}) => {
+  return (
+    <div className="flex flex-col gap-4 font-titleFont mb-14">
+      <h3 className="text-sm uppercase font-light text-designColor tracking-wide">
+       {title}
+      </h3>
+      <h1 className="text-4xl md:text-5xl text-gray-300 font-bold capitalize">{des}</h1>
+    </div>
+  );
+}
+
+export default Title
+ 103 changes: 103 additions & 0 deletions103  
+src/components/navbar/Navbar.js
+@@ -0,0 +1,103 @@
+import React, { useState } from 'react'
+import { Link } from "react-scroll";
+import { FiMenu } from "react-icons/fi";
+import { MdClose } from "react-icons/md";
+import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import {logo} from "../../assets/index"
+import { navLinksdata } from '../../constants';
+
+const Navbar = () => {
+  const [showMenu, setShowMenu]=useState(false)
+  return (
+    <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
+      <div>
+        <img src={logo} alt="logo" />
+      </div>
+      <div>
+        <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
+          {navLinksdata.map(({ _id, title, link }) => (
+            <li
+              className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
+              key={_id}
+            >
+              <Link
+                activeClass="active"
+                to={link}
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                {title}
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <span
+          onClick={() => setShowMenu(!showMenu)}
+          className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-designColor cursor-pointer"
+        >
+          <FiMenu />
+        </span>
+        {showMenu && (
+          <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
+            <div className="flex flex-col gap-8 py-2 relative">
+              <div>
+                <img className="w-32" src={logo} alt="logo" />
+                <p className="text-sm text-gray-400 mt-2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Earum soluta perspiciatis molestias enim cum repellat, magnam
+                  exercitationem distinctio aliquid nam.
+                </p>
+              </div>
+              <ul className="flex flex-col gap-4">
+                {navLinksdata.map((item) => (
+                  <li
+                    key={item._id}
+                    className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
+                  >
+                    <Link
+                      onClick={() => setShowMenu(false)}
+                      activeClass="active"
+                      to={item.link}
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      {item.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              <div className="flex flex-col gap-4">
+                <h2 className="text-base uppercase font-titleFont mb-4">
+                  Find me in
+                </h2>
+                <div className="flex gap-4">
+                  <span className="bannerIcon">
+                    <FaFacebookF />
+                  </span>
+                  <span className="bannerIcon">
+                    <FaTwitter />
+                  </span>
+                  <span className="bannerIcon">
+                    <FaLinkedinIn />
+                  </span>
+                </div>
+              </div>
+              <span
+                onClick={() => setShowMenu(false)}
+                className="absolute top-4 right-4 text-gray-400 hover:text-designColor duration-300 text-2xl cursor-pointer"
+              >
+                <MdClose />
+              </span>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+export default Navbar
+ 60 changes: 60 additions & 0 deletions60  
+src/components/projects/Projects.js
+@@ -0,0 +1,60 @@
+import React from 'react'
+import Title from '../layouts/Title'
+import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import ProjectsCard from './ProjectsCard';
+
+const Projects = () => {
+  return (
+    <section
+      id="projects"
+      className="w-full py-20 border-b-[1px] border-b-black"
+    >
+      <div className="flex justify-center items-center text-center">
+        <Title
+          title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
+          des="My Projects"
+        />
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+        <ProjectsCard
+          title="SOCIAL MEDIA CLONE"
+          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          src={projectOne}
+        />
+        <ProjectsCard
+          title="E-commerce Website"
+          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          src={projectTwo}
+        />
+        <ProjectsCard
+          title="Chatting App"
+          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          src={projectThree}
+        />
+        <ProjectsCard
+          title="SOCIAL MEDIA CLONE"
+          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          src={projectThree}
+        />
+        <ProjectsCard
+          title="E-commerce Website"
+          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          src={projectOne}
+        />
+        <ProjectsCard
+          title="Chatting App"
+          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          src={projectTwo}
+        />
+      </div>
+    </section>
+  );
+}
+
+export default Projects
+ 39 changes: 39 additions & 0 deletions39  
+src/components/projects/ProjectsCard.js
+@@ -0,0 +1,39 @@
+import React from 'react'
+import { BsGithub } from "react-icons/bs";
+import { FaGlobe } from "react-icons/fa";
+
+const ProjectsCard = ({ title, des, src }) => {
+  return (
+    <div className="w-full p-4 xl:px-12 h-auto xl:py-10 rounded-lg shadow-shadowOne flex flex-col bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-gray-900 hover:gray-900 transition-colors duration-1000">
+      <div className="w-full h-[80%] overflow-hidden rounded-lg">
+        <img
+          className="w-full h-60 object-cover group-hover:scale-110 duration-300 cursor-pointer"
+          src={src}
+          alt="src"
+        />
+      </div>
+      <div className="w-full mt-5 flex flex-col  gap-6">
+        <div>
+          <div className="flex items-center justify-between">
+            <h3 className="text-base uppercase text-designColor font-normal">
+              {title}
+            </h3>
+            <div className="flex gap-2">
+              <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
+                <BsGithub />
+              </span>
+              <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
+                <FaGlobe />
+              </span>
+            </div>
+          </div>
+          <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">
+            {des}
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default ProjectsCard
+ 68 changes: 68 additions & 0 deletions68  
+src/components/resume/Achievement.js
+@@ -0,0 +1,68 @@
+import React from "react";
+import { motion } from "framer-motion";
+import ResumeCard from "./ResumeCard";
+
+const Achievement = () => {
+  return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1, transition: { duration: 0.5 } }}
+      className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
+    >
+      <div>
+        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
+          <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
+          <h2 className="text-3xl md:text-4xl font-bold">Company Experience</h2>
+        </div>
+        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+          <ResumeCard
+            title="Lorem ipsum dolor sit amet."
+            subTitle="Lorem ipsum dolor sit amet alternative."
+            result="Success"
+            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+          />
+          <ResumeCard
+            title="Lorem ipsum dolor sit amet."
+            subTitle="Lorem ipsum dolor sit amet alternative."
+            result="Success"
+            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+          />
+          <ResumeCard
+            title="Lorem ipsum dolor sit amet."
+            subTitle="Lorem ipsum dolor sit amet alternative."
+            result="Success"
+            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+          />
+        </div>
+      </div>
+      <div>
+        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
+          <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
+          <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
+        </div>
+        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+          <ResumeCard
+            title="Lorem ipsum dolor sit amet."
+            subTitle="Lorem ipsum dolor sit amet alternative."
+            result="Success"
+            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+          />
+          <ResumeCard
+            title="Lorem ipsum dolor sit amet."
+            subTitle="Lorem ipsum dolor sit amet alternative."
+            result="Success"
+            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+          />
+          <ResumeCard
+            title="Lorem ipsum dolor sit amet."
+            subTitle="Lorem ipsum dolor sit amet alternative."
+            result="Success"
+            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+          />
+        </div>
+      </div>
+    </motion.div>
+  );
+};
+
+export default Achievement;
+ 71 changes: 71 additions & 0 deletions71  
+src/components/resume/Education.js
+@@ -0,0 +1,71 @@
+import React from "react";
+import { motion } from "framer-motion";
+import ResumeCard from "./ResumeCard";
+
+const Education = () => {
+  return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1, transition: { duration: 0.5 } }}
+      className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
+    >
+      {/* part one */}
+      <div>
+        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
+          <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
+          <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
+        </div>
+        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+          <ResumeCard
+            title="BSc in Computer Science"
+            subTitle="University of DVI (2006 - 2010)"
+            result="3.90/4"
+            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+          />
+          <ResumeCard
+            title="AS - Science & Information"
+            subTitle="SuperKing College (2001 - 2005)"
+            result="4.75/5"
+            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+          />
+          <ResumeCard
+            title="Secondary School Education"
+            subTitle="Kingstar Secondary School (1998 - 2000)"
+            result="5.00/5"
+            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+          />
+        </div>
+      </div>
+      {/* part Two */}
+
+      <div>
+        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
+          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
+          <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
+        </div>
+        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+          <ResumeCard
+            title="Sr. Software Engineer"
+            subTitle="Google Out Tech - (2017 - Present)"
+            result="USA"
+            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+          />
+          <ResumeCard
+            title="Web Developer & Trainer"
+            subTitle="Apple Developer Team - (2012 - 2016)"
+            result="MALAYSIA"
+            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+          />
+          <ResumeCard
+            title="Front-end Developer"
+            subTitle="Nike - (2020 - 2011)"
+            result="Oman"
+            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+          />
+        </div>
+      </div>
+    </motion.div>
+  );
+};
+
+export default Education;
+ 68 changes: 68 additions & 0 deletions68  
+src/components/resume/Experience.js
+@@ -0,0 +1,68 @@
+import React from "react";
+import { motion } from "framer-motion";
+import ResumeCard from "./ResumeCard";
+
+const Experience = () => {
+  return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1, transition: { duration: 0.5 } }}
+      className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
+    >
+      <div>
+        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
+          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
+          <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
+        </div>
+        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+          <ResumeCard
+            title="Sr. Software Engineer"
+            subTitle="Google Out Tech - (2017 - Present)"
+            result="USA"
+            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+          />
+          <ResumeCard
+            title="Web Developer & Trainer"
+            subTitle="Apple Developer Team - (2012 - 2016)"
+            result="MALAYSIA"
+            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+          />
+          <ResumeCard
+            title="Front-end Developer"
+            subTitle="Nike - (2020 - 2011)"
+            result="Oman"
+            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+          />
+        </div>
+      </div>
+      <div>
+        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
+          <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
+          <h2 className="text-3xl md:text-4xl font-bold">Trainer Experience</h2>
+        </div>
+        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+          <ResumeCard
+            title="Gym Instructor"
+            subTitle="Rainbow Gym Center (2015 - 2020)"
+            result="DHAKA"
+            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+          />
+          <ResumeCard
+            title="Web Developer and Instructor"
+            subTitle="SuperKing College (2010 - 2014)"
+            result="CANADA"
+            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+          />
+          <ResumeCard
+            title="School Teacher"
+            subTitle="Kingstar Secondary School (2001 - 2010)"
+            result="NEVADA"
+            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+          />
+        </div>
+      </div>
+    </motion.div>
+  );
+};
+
+export default Experience;
+ 89 changes: 89 additions & 0 deletions89  
+src/components/resume/Resume.js
+@@ -0,0 +1,89 @@
+import React, {  useState } from 'react'
+import Title from '../layouts/Title';
+import Education from './Education';
+import Skills from './Skills';
+import Achievement from './Achievement';
+import Experience from "./Experience"
+
+const Resume = () => {
+   const [educationData, setEducationData] = useState(true);
+   const [skillData, setSkillData] = useState(false);
+   const [experienceData, setExperienceData] = useState(false);
+   const [achievementData, setAchievementData] = useState(false);
+  return (
+    <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
+      <div className="flex justify-center items-center text-center">
+        <Title title="7+ YEARS OF EXPERIENCE" des="My Resume" />
+      </div>
+      <div>
+        <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
+          <li
+            onClick={() =>
+              setEducationData(true) &
+              setSkillData(false) &
+              setExperienceData(false) &
+              setAchievementData(false)
+            }
+            className={`${
+              educationData
+                ? "border-designColor rounded-lg"
+                : "border-transparent"
+            } resumeLi`}
+          >
+            Education
+          </li>
+          <li
+            onClick={() =>
+              setEducationData(false) &
+              setSkillData(true) &
+              setExperienceData(false) &
+              setAchievementData(false)
+            }
+            className={`${
+              skillData ? "border-designColor rounded-lg" : "border-transparent"
+            } resumeLi`}
+          >
+            Professional Skills
+          </li>
+          <li
+            onClick={() =>
+              setEducationData(false) &
+              setSkillData(false) &
+              setExperienceData(true) &
+              setAchievementData(false)
+            }
+            className={`${
+              experienceData
+                ? "border-designColor rounded-lg"
+                : "border-transparent"
+            } resumeLi`}
+          >
+            Experience
+          </li>
+          <li
+            onClick={() =>
+              setEducationData(false) &
+              setSkillData(false) &
+              setExperienceData(false) &
+              setAchievementData(true)
+            }
+            className={`${
+              achievementData
+                ? "border-designColor rounded-lg"
+                : "border-transparent"
+            } resumeLi`}
+          >
+            Achievements
+          </li>
+        </ul>
+      </div>
+      {educationData && <Education />}
+      {skillData && <Skills />}
+      {achievementData && <Achievement />}
+      {experienceData && <Experience />}
+
+    </section>
+  );
+}
+
+export default Resume
+ 35 changes: 35 additions & 0 deletions35  
+src/components/resume/ResumeCard.js
+@@ -0,0 +1,35 @@
+import React from 'react'
+
+const ResumeCard = ({title,subTitle,result,des}) => {
+  return (
+    <div className="w-full h-1/3 group flex">
+      <div className="w-10 h-[6px] bgOpacity mt-16 relative">
+        <span className="absolute w-5 h-5 rounded-full -top-2 -left-3 flex justify-center items-center bg-black bg-opacity-60">
+          <span className="w-3 h-3 rounded-full bg-bodyColor inline-flex group-hover:bg-designColor duration-300"></span>
+        </span>
+      </div>
+      <div className="w-full bg-black bg-opacity-20 hover:bg-opacity-30 duration-300  rounded-lg p-4 lgl:px-10 flex flex-col justify-center gap-6 lgl:gap-10 shadow-shadowOne">
+        <div className="flex flex-col lgl:flex-row justify-between gap-4 lgl:gap-0 lgl:items-center">
+          <div>
+            <h3 className="text-xl md:text-2xl font-semibold group-hover:text-white duration-300">
+              {title}
+            </h3>
+            <p className="text-sm mt-2 text-gray-400 group-hover:text-white duration-300">
+              {subTitle}
+            </p>
+          </div>
+          <div>
+            <p className="px-4 py-2 text-designColor bg-black bg-opacity-25 rounded-lg flex justify-center items-center shadow-shadowOne text-sm font-medium">
+              {result}
+            </p>
+          </div>
+        </div>
+        <p className="text-sm md:text-base font-medium text-gray-400 group-hover:text-gray-300 duration-300">
+          {des}
+        </p>
+      </div>
+    </div>
+  );
+}
+
+export default ResumeCard
+ 166 changes: 166 additions & 0 deletions166  
+src/components/resume/Skills.js
+@@ -0,0 +1,166 @@
+import React from 'react'
+import { motion } from 'framer-motion';
+
+const Skills = () => {
+  return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1, transition: { duration: 0.5 } }}
+      className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
+    >
+      <div className="w-full lgl:w-1/2">
+        <div className="py-12 font-titleFont flex flex-col gap-4">
+          <p className="text-sm text-designColor tracking-[4px] uppercase">
+            Features
+          </p>
+          <h2 className="text-3xl md:text-4xl font-bold">Design Skill</h2>
+        </div>
+        <div className='className="mt-14 w-full flex flex-col gap-6'>
+          <div className="overflow-x-hidden">
+            <p className="text-sm uppercase font-medium">Photoshot</p>
+            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-full h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-7 right-0">100%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p className="text-sm uppercase font-medium">Figma</p>
+            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[90%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-7 right-0">90%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p className="text-sm uppercase font-medium">Adobe XD.</p>
+            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[60%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-7 right-0">60%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p className="text-sm uppercase font-medium">Adobe Illustrator</p>
+            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[70%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-7 right-0">70%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p className="text-sm uppercase font-medium">Design</p>
+            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[95%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-7 right-0">95%</span>
+              </motion.span>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div className="w-full lgl:w-1/2">
+        <div className="py-12 font-titleFont flex flex-col gap-4">
+          <p className="text-sm text-designColor tracking-[4px] uppercase">
+            Features
+          </p>
+          <h2 className="text-3xl md:text-4xl font-bold">Development Skill</h2>
+        </div>
+        <div className="flex flex-col gap-6">
+          <div className="overflow-x-hidden">
+            <p className="text-sm uppercase font-medium">React</p>
+            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-full h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-7 right-0">100%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p className="text-sm uppercase font-medium">HTML 5</p>
+            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[95%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-7 right-0">95%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p className="text-sm uppercase font-medium">CSS3</p>
+            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[80%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-7 right-0">80%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p className="text-sm uppercase font-medium">JAVASCRIPT</p>
+            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[75%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-7 right-0">75%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p className="text-sm uppercase font-medium">SOFTWARE</p>
+            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[90%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-7 right-0">90%</span>
+              </motion.span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </motion.div>
+  );
+}
+
+export default Skills
+ 258 changes: 258 additions & 0 deletions258  
+src/components/tesimonial/Testimonial.js
+@@ -0,0 +1,258 @@
+import React,{useState} from 'react'
+import Slider from "react-slick";
+import { RiStarFill } from "react-icons/ri";
+import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
+import Title from '../layouts/Title'
+import { testimonialOne,testimonialTwo, quote } from "../../assets";
+
+
+function SampleNextArrow(props) {
+  const { onClick } = props;
+  return (
+    <div
+      className="w-14 h-12 bg-[#0c1821] hover:bg-black duration-300 rounded-md text-2xl text-gray-400 flex justify-center items-center absolute top-0 right-0 shadow-shadowOne cursor-pointer z-10"
+      onClick={onClick}
+    >
+      <HiArrowRight />
+    </div>
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { onClick } = props;
+  return (
+    <div
+      className="w-14 h-12 bg-[#0c1821] hover:bg-black duration-300 rounded-md text-2xl text-gray-400 flex justify-center items-center absolute top-0 right-20 shadow-shadowOne cursor-pointer z-10"
+      onClick={onClick}
+    >
+      <HiArrowLeft />
+    </div>
+  );
+}
+
+const Testimonial = () => {
+      const [dotActive, setDocActive] = useState(0);
+     const settings = {
+       dots: true,
+       infinite: true,
+       speed: 500,
+       slidesToShow: 1,
+       slidesToScroll: 1,
+       nextArrow:<SampleNextArrow />,
+       prevArrow:<SamplePrevArrow />,
+       beforeChange: (prev, next) => {
+         setDocActive(next);
+       },
+       appendDots: (dots) => (
+         <div
+           style={{
+             borderRadius: "10px",
+             padding: "10px",
+           }}
+         >
+           <ul
+             style={{
+               display: "flex",
+               gap: "15px",
+               justifyContent: "center",
+               marginTop: "20px",
+             }}
+           >
+             {" "}
+             {dots}{" "}
+           </ul>
+         </div>
+       ),
+       customPaging: (i) => (
+         <div
+           style={
+             i === dotActive
+               ? {
+                   width: "12px",
+                   height: "12px",
+                   color: "blue",
+                   background: "#ff014f",
+                   borderRadius: "50%",
+                   cursor: "pointer",
+                 }
+               : {
+                   width: "12px",
+                   height: "12px",
+                   color: "blue",
+                   background: "gray",
+                   borderRadius: "50%",
+                   cursor: "pointer",
+                 }
+           }
+         ></div>
+       ),
+     };
+  return (
+    <section
+      id="testimonial"
+      className="w-full py-20 border-b-[1px] border-b-black"
+    >
+      <div className="flex justify-center items-center text-center">
+        <Title title="WHAT CLIENTS SAY" des="Testimonial" />
+      </div>
+      <div className="max-w-6xl mx-auto">
+        {/* ================ Slider One ================== */}
+        <Slider {...settings}>
+          <div className="w-full">
+            <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
+              <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
+                <img
+                  className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
+                  src={testimonialOne}
+                  alt="testimonialOne"
+                />
+                <div className="w-full flex flex-col justify-end">
+                  <p className="text-xs uppercase text-designColor tracking-wide mb-2">
+                    Bound - Trolola
+                  </p>
+                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                  <p className="text-base tracking-wide text-gray-500">
+                    Operation Officer
+                  </p>
+                </div>
+              </div>
+              <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
+                <img className="w-20 lgl:w-32" src={quote} alt="quote" />
+                <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
+                  <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
+                    <div>
+                      <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+                        Travel Mobile App Design.
+                      </h3>
+                      <p className="text-base text-gray-400 mt-3">
+                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                      </p>
+                    </div>
+                    <div className="text-yellow-500 flex gap-1">
+                      <RiStarFill />
+                      <RiStarFill />
+                      <RiStarFill />
+                      <RiStarFill />
+                      <RiStarFill />
+                    </div>
+                  </div>
+                  <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+                    dolorum, eos natus ipsum numquam veniam officia
+                    necessitatibus ratione quos debitis exercitationem
+                    repudiandae facilis id neque nihil accusantium perspiciatis
+                    repellat? Iste.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* ================ Slider Two ================== */}
+
+          <div className="w-full">
+            <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
+              <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
+                <img
+                  className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
+                  src={testimonialTwo}
+                  alt="testimonialTwo"
+                />
+                <div className="w-full flex flex-col justify-end">
+                  <p className="text-xs uppercase text-designColor tracking-wide mb-2">
+                    Bound - Trolola
+                  </p>
+                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                  <p className="text-base tracking-wide text-gray-500">
+                    Operation Officer
+                  </p>
+                </div>
+              </div>
+              <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
+                <img className="w-20 lgl:w-32" src={quote} alt="quote" />
+                <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
+                  <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
+                    <div>
+                      <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+                        Travel Mobile App Design.
+                      </h3>
+                      <p className="text-base text-gray-400 mt-3">
+                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                      </p>
+                    </div>
+                    <div className="text-yellow-500 flex gap-1">
+                      <RiStarFill />
+                      <RiStarFill />
+                      <RiStarFill />
+                      <RiStarFill />
+                      <RiStarFill />
+                    </div>
+                  </div>
+                  <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+                    dolorum, eos natus ipsum numquam veniam officia
+                    necessitatibus ratione quos debitis exercitationem
+                    repudiandae facilis id neque nihil accusantium perspiciatis
+                    repellat? Iste.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* ================ Slider Three ================== */}
+
+          <div className="w-full">
+            <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
+              <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
+                <img
+                  className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
+                  src={testimonialOne}
+                  alt="testimonialOne"
+                />
+                <div className="w-full flex flex-col justify-end">
+                  <p className="text-xs uppercase text-designColor tracking-wide mb-2">
+                    Bound - Trolola
+                  </p>
+                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                  <p className="text-base tracking-wide text-gray-500">
+                    Operation Officer
+                  </p>
+                </div>
+              </div>
+              <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
+                <img className="w-20 lgl:w-32" src={quote} alt="quote" />
+                <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
+                  <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
+                    <div>
+                      <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+                        Travel Mobile App Design.
+                      </h3>
+                      <p className="text-base text-gray-400 mt-3">
+                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                      </p>
+                    </div>
+                    <div className="text-yellow-500 flex gap-1">
+                      <RiStarFill />
+                      <RiStarFill />
+                      <RiStarFill />
+                      <RiStarFill />
+                      <RiStarFill />
+                    </div>
+                  </div>
+                  <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+                    dolorum, eos natus ipsum numquam veniam officia
+                    necessitatibus ratione quos debitis exercitationem
+                    repudiandae facilis id neque nihil accusantium perspiciatis
+                    repellat? Iste.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Slider>
+      </div>
+    </section>
+  );
+}
+
+export default Testimonial
+ 32 changes: 32 additions & 0 deletions32  
+src/constants/index.js
+@@ -0,0 +1,32 @@
+export const navLinksdata = [
+  {
+    _id: 1001,
+    title: "Home",
+    link: "home",
+  },
+  {
+    _id: 1002,
+    title: "Features",
+    link: "features",
+  },
+  {
+    _id: 1003,
+    title: "Projects",
+    link: "projects",
+  },
+  {
+    _id: 1004,
+    title: "Resume",
+    link: "resume",
+  },
+  {
+    _id: 1005,
+    title: "Testimonial",
+    link: "testimonial",
+  },
+  {
+    _id: 1006,
+    title: "Contact",
+    link: "contact",
+  },
+];
+ 29 changes: 29 additions & 0 deletions29  
+src/index.css
+@@ -0,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .bannerIcon{
+        @apply w-16 h-16 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;
+    }
+    .resumeLi {
+    @apply w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-none;
+         }
+.bgOpacity {
+@apply bg-black bg-opacity-40;
+                  }
+    .contactInput{
+        @apply w-full h-12 rounded-lg border-b-[1px] border-b-gray-600 bg-[#191b1e] text-lightText px-4 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300
+    }
+.contactTextArea{
+    @apply w-full rounded-lg border-b-[1px] border-b-gray-600 bg-[#191b1e] text-lightText px-4 py-2 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300 resize-none
+}
+}
+
+.active {
+    color: white;
+}
+.scrollbar-hide::-webkit-scrollbar{
+    display: none;
+}
+ 13 changes: 13 additions & 0 deletions13  
+src/index.js
+@@ -0,0 +1,13 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import "slick-carousel/slick/slick.css"; 
+import './index.css';
+import App from './App';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+ 32 changes: 32 additions & 0 deletions32  
+tailwind.config.js
+@@ -0,0 +1,32 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      screens:{
+        xs: "320px",
+        sm: "375px",
+        sml: "500px",
+        md: "667px",
+        mdl: "768px",
+        lg: "960px",
+        lgl: "1024px",
+        xl: "1280px",
+      },
+      fontFamily: {
+        bodyFont: ["Poppins", "sans-serif"],
+        titleFont: ["Montserrat", "sans-serif"],
+      },
+      colors: {
+        bodyColor: "#212428",
+        lightText: "#c4cfde",
+        boxBg: "linear-gradient(145deg, #1e2024, #23272b)",
+        designColor: "#ff014f",
+      },
+      boxShadow: {
+        shadowOne: "10px 10px 19px #1c1e22, -10px -10px 19px #262a2e",
+      },
+    },
+  },
+  plugins: [],
+};
